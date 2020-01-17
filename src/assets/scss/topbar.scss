@@ -1,0 +1,78 @@
+.navbar {
+  height: 50px;
+  background: #fff;
+  background-color: #fff;
+  padding: 0 30px;
+  box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.35);
+}
+.navbar .page-titel {
+  color: #006bb8;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.navbar ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0;
+}
+
+.navbar ul li {
+  margin-right: 30px;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.navbar ul li a {
+  padding: 15px 0;
+  color: #333333;
+  text-decoration: none;
+}
+
+.navbar ul li.active a {
+  color: #006bb8;
+}
+
+.navbar ul li.active ::after {
+  display: block;
+  content: "";
+  background: #006bb8;
+  height: 4px;
+  position: absolute;
+  bottom: -11px;
+  width: 100%;
+}
+
+.btn-default {
+  color: #666666;
+  background-color: #fff;
+  border: 1px solid #c2cbce;
+  padding: 0 10px;
+  text-transform: uppercase;
+  border-radius: 2px;
+  min-height: 30px;
+  font-size: 14px;
+}
+
+.btn-default:hover {
+  color: #006bb8;
+  background: #f0f0f0;
+}
+
+.toggle-button.btn-default {
+  box-shadow: none;
+}
+
+.toggle-button.btn-default:hover,
+.toggle-button.btn-default.active {
+  box-shadow: inset -1px 0px 13px 3px rgba(0, 0, 0, 0.33);
+}
+
+.d-none {
+  display: none;
+}
